@@ -19,3 +19,5 @@ from django.urls import path
 urlpatterns = [
     path('users/admin/', admin.site.urls),
 ]
+from rest_framework.urlpatterns import format_suffix_patterns
+from snippets import views
